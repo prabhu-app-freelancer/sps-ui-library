@@ -30,6 +30,7 @@
   "homepage": "https://github.com/prabhu-app-freelancer/sps-ui-library#readme",
   "dependencies": {
     "@spslibrary/sps-builder": "^0.0.0",
-    "react": "^16.14.0"
+    "react": "^16.14.0",
+    "styled-components": "^6.1.6"
   }
 }
