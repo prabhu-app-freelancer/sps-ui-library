@@ -10,11 +10,9 @@ function getAbsolutePath(value) {
 
 /** @type { import('@storybook/react-webpack5').StorybookConfig } */
 const config = {
-  stories: [
-    '../packages/**/*.stories.js'
-  ],
+  stories: ['../packages/**/*.stories.js'],
   addons: [
-    getAbsolutePath('@storybook/addon-actions'), 
+    getAbsolutePath('@storybook/addon-actions'),
     getAbsolutePath("@storybook/addon-links"),
     getAbsolutePath("@storybook/addon-essentials"),
     getAbsolutePath("@storybook/addon-onboarding"),
@@ -31,5 +29,6 @@ const config = {
   docs: {
     autodocs: "tag",
   },
+  resolve: { mainFields: ['src', 'module', 'main'] }
 };
 export default config;

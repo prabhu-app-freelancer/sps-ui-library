@@ -5,12 +5,15 @@
   "keywords": [],
   "author": "Prabhu <82406102+prabhu-app-freelancer@users.noreply.github.com>",
   "license": "ISC",
-  "main": "lib/sps.js",
+  "main": "dist/sps.cjs.js",
+  "module": "dist/sps.esm.js",
+  "src": "lib/sps.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
+    "dist",
     "lib"
   ],
   "publishConfig": {
