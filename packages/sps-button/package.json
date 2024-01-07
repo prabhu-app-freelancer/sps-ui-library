@@ -1,6 +1,6 @@
 {
   "name": "@spslibrary/sps-button",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "Prabhu <82406102+prabhu-app-freelancer@users.noreply.github.com>",
@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/prabhu-app-freelancer/sps-ui-library#readme",
   "dependencies": {
-    "@spslibrary/sps-builder": "^0.0.0",
+    "@spslibrary/sps-builder": "^1.0.1",
     "react": "^16.14.0"
   }
 }
